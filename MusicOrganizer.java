@@ -59,7 +59,7 @@ public class MusicOrganizer
             files.remove(index);
         }
     }
-    public int checkIndex(int index){
+    public void checkIndex(int index){
         if (index >= 0 && index < files.size()-1){
             System.out.println("valid");
                 }else {
