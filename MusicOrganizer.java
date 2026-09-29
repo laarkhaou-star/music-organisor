@@ -66,4 +66,9 @@ public class MusicOrganizer
             System.out.println("invalid");
     }
     }
+    public boolean validIndex (int par){
+        return validIndex;
+    }
+    
+    
 }
