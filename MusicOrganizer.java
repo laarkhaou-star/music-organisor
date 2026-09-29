@@ -59,4 +59,5 @@ public class MusicOrganizer
             files.remove(index);
         }
     }
+    MusicOrganizer.checkIndex(int 0,size()-1);
 }
