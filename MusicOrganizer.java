@@ -67,7 +67,10 @@ public class MusicOrganizer
     }
     }
     public boolean validIndex (int par){ //question 2
-        
+        if (index >= 0 && index <= files.size()-1){
+            return true;
+                }else {
+            return false;
     }
     
     
