@@ -66,7 +66,7 @@ public class MusicOrganizer
             System.out.println("invalid");
     }
     }
-    public boolean validIndex (int par){ //question 2
+    public boolean validIndex (int index){ //question 2
         if (index >= 0 && index <= files.size()-1){
             return true;
                 }else {
