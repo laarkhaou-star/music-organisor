@@ -67,7 +67,7 @@ public class MusicOrganizer
     }
     }
     public boolean validIndex (int par){
-        return boolean validIndex;
+        return boolean ValidIndex;
     }
     
     
