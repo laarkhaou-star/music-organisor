@@ -41,11 +41,13 @@ public class MusicOrganizer
      * List a file from the collection.
      * @param index The index of the file to be listed.
      */
-    public void listFile(int index)
+    public void listFile(int index) //question3
     {
-        if(index >= 0 && index < files.size()) {
+        if(validIndex(index)) {
             String filename = files.get(index);
             System.out.println(filename);
+        }else{
+            System.out.println("invalid index");
         }
     }
     
@@ -55,8 +57,10 @@ public class MusicOrganizer
      */
     public void removeFile(int index)
     {
-        if(index >= 0 && index < files.size()) {
+        if(validIndex(index)) {
             files.remove(index);
+        }else{
+            System.out.println("invalid index");
         }
     }
     public void checkIndex(int index){ //question 1
@@ -71,7 +75,8 @@ public class MusicOrganizer
             return true;
                 }else {
             return false;
+        }
     }
-    }
+    
     
 }
